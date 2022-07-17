@@ -1,4 +1,9 @@
 // React controlled forms
+
+// Pro's - Feature rich due to more control, real time validation, full control  over  event, reccomended by react docs
+
+// Con's - Harder to implement, more complex to lear
+
 // Each input needs a value and onChange. The onChange needs a handler and the value needs to match a state object
 
 import React, { Component } from "react";
