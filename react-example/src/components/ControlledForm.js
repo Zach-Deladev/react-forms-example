@@ -33,11 +33,16 @@ export class ControlledForm extends Component {
     });
   };
 
+  handleSubmit = (event) => {
+    event.preventDefault();
+    console.log(this.state);
+  };
+
   render() {
     return (
       <div>
         <h2>Please fill out the form below</h2>
-        <form>
+        <form onSubmit={this.handleSubmit}>
           <div>
             <label htmlFor="id-name">Your Name: </label>
             <input
